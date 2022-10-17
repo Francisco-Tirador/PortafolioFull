@@ -21,11 +21,11 @@ function App() {
       </div>
   
         <ul>
-        <a href="#1" onClick={menu}><li><b>PRINCIPAL</b></li></a>
-          <a href="#2" onClick={menu}><li><b>SOBRE MI</b></li></a>
-          <a href="#3" onClick={menu}><li><b>HABILIDADES</b></li></a>
-          <a href="#4" onClick={menu}><li><b>PROYECTOS</b></li></a>
-          <a href="#5" onClick={menu}><li><b>CONTACTO</b></li></a> 
+        <a href="#1" ><li><b>PRINCIPAL</b></li></a>
+          <a href="#2" ><li><b>SOBRE MI</b></li></a>
+          <a href="#3"><li><b>HABILIDADES</b></li></a>
+          <a href="#4"><li><b>PROYECTOS</b></li></a>
+          <a href="#5"><li><b>CONTACTO</b></li></a> 
         </ul>
       </div>
       {Menu&&
