@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media (max-width:600px)
+{body {
+   
+    font-weight:100;
+}
+
+.name{
+  font-size:30px;
+}
+.img{
+  width: 100%;
+  height: 50%;
+}
+.targetPrincipal{
+  display:inline-flex;
+  flex-wrap: wrap;
+  padding:1%;
+  height: 80vh;
+}
+
+
+.contenProyects{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+}
+
+@media (max-width:600px) {
+  
+  .presentacion{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size:medium;
+   
+  }
+  .sobreM{
+    width: 88%;
+  }
+  .word{
+    left: 25%;
+  }
+  .palito{
+    left: 25%;
+  }
+  
+  }
+  @media (max-width:900px){
+    .Nav li{
+      margin:0  10px;
+    }
+    .imgProyect{
+      width: 280px;
+      height: 250px;
+    }
+    .word{
+      display: inline-block;
+   
+      font-size: 60%;
+      width: 200px;
+    }
+    .palito{
+      display: inline-block;
+      width: 150px;
+      height: 10%;
+    }
+  }
+  @media (max-width:730px){
+    .imgProyect{
+     display: none;
+    }
+    .card{
+      width: 230px;
+      height: 300px;
+    }
+  }
+  @media (max-width:850px){
+ .Nav li{
+  display: none;
+ }
+ .Nav{
+  height: 70px;
+ }
+ .menu{
+  display: block;
+ }
+  }
