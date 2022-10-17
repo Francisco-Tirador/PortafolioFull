@@ -1,5 +1,6 @@
 import ModelProyect from './ModelProyect'
-// import pantalla1 from '../../imgSRC/Captura.png'
+
+
 const Proyectos = () => {
 
 const infoProyects=[

@@ -4,6 +4,11 @@
 }
 *{
   list-style: none;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 body{
   background-color: rgb(2, 42, 105);
@@ -15,6 +20,31 @@ button{
   width: 100px;
   height: 50px;
 }
+
+
+.Menu{
+  position: fixed;
+  background-color: #021531;
+  height: 100vh;
+  z-index: 100;
+  top: 0;
+  left:-100% ;
+  animation:0.5s 1 linear forwards Moves ; 
+  transition: 2s;
+}
+.Menu li{
+  margin-right: 20px;
+  margin-top:30px ;
+ 
+}
+@keyframes Moves{
+  100%{
+    left: 0;
+  }
+}
+
+
+
 .Nav{
 background-color: #013d92a0;
   display: flex;
@@ -24,6 +54,8 @@ background-color: #013d92a0;
   top: 0;
   justify-content: end;
 }
+
+
 
 .Nav li{
   border-radius: 5px;
@@ -44,16 +76,21 @@ z-index: 108;
   top: 0;
   z-index: 300;
   display: none;
+  
+  transform: rotate(0deg);
 }
 .menu img{
   width: 40px;
   margin: 20px;
-  
+  transition: 2s;
 }
 
+.menu img:hover{
+transform:rotate(90deg);
+}
 
 .targetPrincipal{
-  margin-top:6%;
+  margin-top:70px;
   width: 98%;
   height:85vh;
   text-align: center;
@@ -191,9 +228,6 @@ flex-wrap: wrap;
   margin-top: 45px;
   border-radius: 20px;
 }
-/* .imgProyect:hover{
-  display: flex;
-} */
 
 .iconoP{
   width: 280px;
@@ -211,22 +245,6 @@ flex-wrap: wrap;
   position: relative;
   display: inline-block;
 }
-.contenContacto{
-  overflow: visible;
-  background-color: rgb(164, 44, 44);
-  width:350px ;
-  min-height:320px ;
-  color:black;
-  position: absolute;
-  top: 10%;
-  left: 100%;
-  white-space: nowrap; 
-  justify-content: center;
-  animation: contenidoContacto  4.8s alternate;
-}
-
-
-
 
 @keyframes contenidoContacto {
 0%{
