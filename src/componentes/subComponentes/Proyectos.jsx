@@ -20,7 +20,7 @@ const infoProyects=[
   gitHub:'https://github.com/Francisco-Tirador/rick',
   icon:'https://cdn-icons-png.flaticon.com/512/1374/1374413.png'},
   
-  {id:"3",title:"RED SOCIAL",description:'Este proyecto simula ser una red social, totalmente FULL STACK, pudiendo interactuar con diferentes usuarios, creando publicaciones, agregando amigos con la posibilidad de tener conversaciones por el momento solo entre los dos usuarios.',
+  {id:"3",title:"RED SOCIAL",description:'Este proyecto simula ser una red social, totalmente FULL STACK, pudiendo interactuar con diferentes usuarios, creando publicaciones, agregando amigos con la posibilidad de tener conversaciones por el momento solo entre los dos usuarios.De la parte del Back end se costruyo en base a modelos MVC con PostgresSQL rutas protegidas y la implementacion de jsonwebtoken',
    imgs:[gato],
    url:'https://gato-red.netlify.app/#/',
   gitHub:'https://github.com/Francisco-Tirador/FRONT-GATO_RED',
