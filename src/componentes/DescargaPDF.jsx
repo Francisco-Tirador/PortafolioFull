@@ -1,5 +1,5 @@
 import React from 'react'
-import {PDFDownloadLink,PDFViewer} from '@react-pdf/renderer'
+
 import CV from '../imgSRC/CVFULLSTACK.pdf'
 
 
