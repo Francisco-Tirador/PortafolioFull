@@ -1,12 +1,12 @@
 import ModelProyect from './ModelProyect'
-
+import Ima from '../../imgSRC/Captura.jpg'
 
 const Proyectos = () => {
 
 const infoProyects=[
   {id:"1",title:"POKEDEX",
   description:'Este proyecto web hace referencia a la famosa serie Pokémon utilizando su amplia gama de personajes aprovechándolos para explorar las diferentes formas de búsqueda de estos; construido en React, trabajando con la experiencia de usuario y la api.',
-  imgs:['https://img.freepik.com/foto-gratis/disposicion-elementos-escritorio-vista-frontal-espacio-copia_23-2148708018.jpg?w=2000'],
+  imgs:[Ima],
   url:'https://api-pokedex-francisco.netlify.app/',
   gitHub:'https://github.com/Francisco-Tirador/PokedexApi',
   icon:'https://cdn-icons-png.flaticon.com/512/189/189001.png'},
@@ -23,9 +23,6 @@ const infoProyects=[
   gitHub:'https://github.com/Francisco-Tirador/FRONT-GATO_RED',
   icon:'https://cdn-icons-png.flaticon.com/512/6855/6855215.png'}
 ]
-
-
-
 
   return (
     <div className='contenProyects'>
