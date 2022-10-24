@@ -5,6 +5,7 @@ import Target from './componentes/targPresenta'
 import Contacto from './componentes/Contacto'
 import Habilidades from './componentes/Habilidades'
 import { useState } from 'react'
+import DescargaPDF from './componentes/DescargaPDF'
 function App() {
   const [Menu, setMenu] = useState(false)
   const menu = () => {
@@ -46,6 +47,7 @@ function App() {
       <Target />
       <div> <div id='2'></div>
         <SobreMi />
+        <DescargaPDF/>
         <div id='3'></div>
         <h3 className='Subtitule' >Habilidades</h3>
         <Habilidades />
