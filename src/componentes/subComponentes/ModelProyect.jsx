@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import visual from '../../imgSRC/atom.png'
 
 const ModelProyect = ({title,description,imgs,icono,url,gitHub}) => {
 

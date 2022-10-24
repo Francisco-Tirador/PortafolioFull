@@ -1,13 +1,14 @@
 import React from "react";
-
+import logo from '../imgSRC/{F}.png'
 
 const Target=()=>{
     
+    // "https://img.freepik.com/vector-premium/chico-joven-que-trabaja-computadora-mesa-elevadora-silla-pie-aislado-fondo-verde-ilustracion-plana_323758-138.jpg?w=740" 
     return(
         <div className="targetPrincipal">
             
           {/* <Img enlace={link} alt="Programador"/> */}
-          <img className="img" src="https://img.freepik.com/vector-premium/chico-joven-que-trabaja-computadora-mesa-elevadora-silla-pie-aislado-fondo-verde-ilustracion-plana_323758-138.jpg?w=740" alt="" />
+          <img className="img" src={logo}alt="" />
           <div className="presentacion">
               <h1>HOLA MUNDO</h1>
              <p className="name entrada">Soy Francisco Beltran</p>
